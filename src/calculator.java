@@ -21,7 +21,10 @@ public class calculator {
                     System.out.println("Такого пункта нет!");
                     continue;
                 }
-                if (input == 5) break;
+                if (input == 5){
+                    scanner.close();
+                    break;
+                }
             } else {
                 System.out.println("Вы ввели не число");
             }
