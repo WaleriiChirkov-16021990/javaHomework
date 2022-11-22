@@ -1,3 +1,7 @@
+/*
+Реализовать простой калькулятор
+*/
+
 import java.util.Scanner;
 
 public class calculator {

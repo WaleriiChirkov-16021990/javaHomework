@@ -1,6 +1,10 @@
-//import java.util.ArrayList;
-//import java.util.List;
-import java.util.Random;
+/*
+Задано уравнение вида q + w = e, где q, w, e >= 0.\n
+ Некоторые цифры могут быть заменены знаком вопроса, например 2? + ?5 = 69. \n
+ Требуется восстановить выражение до верного равенства. \n
+ Предложить хотя бы одно решение или сообщить, что его нет.
+*/
+
 
 public class additional {
     public static void main(String[] args) {
@@ -10,7 +14,6 @@ public class additional {
         String[] array = new String[2];
         array = str.split("[\\+\\-\\=]");
         System.out.println(String.join(",", array));
-        Random rnd = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = array[i].replace("?","").replace(" ", "");
             }
@@ -23,11 +26,6 @@ public class additional {
                     System.out.printf("2 %s + %s 5 = 69", i, j);
                 }
             }
-
         }
-
     }
-
-
-
 }

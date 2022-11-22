@@ -1,3 +1,7 @@
+/*
+Вывести все простые числа от 1 до 1000.
+ */
+
 public class primeNumbers {
     public static void main(String[] args) {
         boolean flag = true;

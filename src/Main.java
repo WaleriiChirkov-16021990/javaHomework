@@ -1,3 +1,9 @@
+/*
+Вычислить n-ое треугольного число(сумма чисел от 1 до n), \n
+n! (произведение чисел от 1 до n)
+ */
+
+
 import java.io.IOException;
 import java.util.Scanner;
 
