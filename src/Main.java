@@ -37,6 +37,7 @@ public class Main {
         System.out.printf("Факториал числа %d = %d .\n",number, result);
         result2 = rectangle(number);
         System.out.printf("%d-e треугольное число = %d .\n",number, result2);
+        scanner.close();
     }
 
     private static int factorial(int num){
